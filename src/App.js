@@ -18,6 +18,10 @@ function App() {
         <Routes>
           <Route path="/" index element={<BoxShadow />} />
           <Route path="/text-shadow" element={<TextShadow />} />
+          <Route
+            path="*"
+            element={<BoxShadow />}
+          />
         </Routes>
       </div>
     </div>
