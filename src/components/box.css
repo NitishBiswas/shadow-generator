@@ -1,0 +1,21 @@
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.box {
+    height: 50vh;
+    width: 40vh;
+    background-color: rgb(65, 176, 255);
+    border-radius: 10px;
+}
+
+.box-container p {
+    color: gray;
+    font-size: 20px;
+}

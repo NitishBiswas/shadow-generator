@@ -1,0 +1,11 @@
+.generator {
+    width: 100%;
+}
+
+.input-field {
+    width: 90%;
+}
+
+input {
+    cursor: pointer;
+}

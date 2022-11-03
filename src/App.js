@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import BoxShadow from './components/BoxShadow';
+import Header from './components/Header';
+import TextShadow from './components/TextShadow';
 
 function App() {
+  const [shadow, setShadow] = useState('box');
+
+  const getShadow = (sd) => {
+    setShadow(sd);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container d-flex flex-column">
+        <Header onChange={getShadow} title={shadow === 'box' ? "Box" : "Text"} />
+        <Routes>
+          <Route path="/" element={<BoxShadow />} />
+          <Route path="/text-shadow" element={<TextShadow />} />
+        </Routes>
+      </div>
     </div>
   );
 }

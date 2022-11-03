@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Poppins&display=swap');
+
+.header {
+    width: 100%;
+}
+
+.header h1 {
+    text-shadow: 5px 5px 2px rgb(208, 208, 208);
+    font-family: 'Lobster', cursive;
+}
