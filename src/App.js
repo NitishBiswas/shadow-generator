@@ -16,7 +16,7 @@ function App() {
       <div className="container d-flex flex-column">
         <Header onChange={getShadow} title={shadow === 'box' ? "Box" : "Text"} />
         <Routes>
-          <Route path="/" element={<BoxShadow />} />
+          <Route path="/" index element={<BoxShadow />} />
           <Route path="/text-shadow" element={<TextShadow />} />
         </Routes>
       </div>
