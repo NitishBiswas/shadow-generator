@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shadow-generator/static/css/main.befae322.css",
-    "main.js": "/shadow-generator/static/js/main.8bdfe8f6.js",
+    "main.js": "/shadow-generator/static/js/main.797c04a4.js",
     "static/js/787.2fb709b8.chunk.js": "/shadow-generator/static/js/787.2fb709b8.chunk.js",
     "index.html": "/shadow-generator/index.html",
     "main.befae322.css.map": "/shadow-generator/static/css/main.befae322.css.map",
-    "main.8bdfe8f6.js.map": "/shadow-generator/static/js/main.8bdfe8f6.js.map",
+    "main.797c04a4.js.map": "/shadow-generator/static/js/main.797c04a4.js.map",
     "787.2fb709b8.chunk.js.map": "/shadow-generator/static/js/787.2fb709b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.befae322.css",
-    "static/js/main.8bdfe8f6.js"
+    "static/js/main.797c04a4.js"
   ]
 }
